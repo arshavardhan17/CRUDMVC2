@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Studentlist = () => {
-  const apiUrl = "https://crudmvc.onrender.com/api/students";
+  const apiUrl = "https://crudmvc2-1.onrender.com/api/students";
   const [students, setStudents] = useState([]);
   const [formData, setFormData] = useState({
     name: "",

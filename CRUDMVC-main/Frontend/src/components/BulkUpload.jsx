@@ -3,7 +3,7 @@ import axios from "axios";
 import { FaUpload } from "react-icons/fa";
 
 const BulkUpload = () => {
-  const apiUrl = "https://crudmvc.onrender.com/api/students/bulk-upload";
+  const apiUrl = "https://crudmvc2-1.onrender.com/api/students/bulk-upload";
   const [file, setFile] = useState(null);
   const [message, setMessage] = useState("");
   const [error, setError] = useState(null);

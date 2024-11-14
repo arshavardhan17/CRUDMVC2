@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="file"] {
+  border: 2px dashed #4f46e5; /* Purple border */
+  border-radius: 12px; /* Curvy edges */
+  padding: 10px;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #6b7280; /* Gray border on hover */
+}
+
+button {
+  border-radius: 12px; /* Curvy edges for buttons */
+}
